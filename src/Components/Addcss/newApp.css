@@ -24,7 +24,7 @@ form {
  color: black;
 }
 .card-container {
-  background-color: rgb(135, 176, 202);
+  background-color: rgb(141, 193, 223);
   padding: 90px;
   position: relative;
   box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
@@ -32,6 +32,7 @@ form {
 }
 .btn_item{
   position: absolute;
+ 
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,34 +81,3 @@ p.slide-left{
   transform:scale(1.1);
  
 }
-div.b10{
-  background-image: url('./Images/2.jpg');
-  background-repeat: no-repeat;
-  background-size: 70% 100%;
-  /* background-position: center; */
-  margin: 0;
-  height: 10vh;
-  animation: changeImage 15s linear infinite;
-}
-
-@keyframes changeImage{
-  0% {
-      background-image: url('./Images/1.jpg');
-  }
-
-  25% {
-      background-image: url('./Images/2.jpg');
-  }
-
-  50% {
-      background-image: url('./Images/3.jpg');
-  }
-
-  75% {
-      background-image: url('./Images/4.jpg');
-  }
-
-  100% {
-      background-image: url('./Images/5.jpg');
-  }
-} 
